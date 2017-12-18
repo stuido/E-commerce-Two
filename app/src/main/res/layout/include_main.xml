@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#FF5001"
+    android:baselineAligned="false">
+    <ImageView
+        android:id="@+id/leftImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/selector_include"
+        android:clickable="true"
+        android:scaleType="center"
+        android:src="@mipmap/ic_normal_code"
+        />
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:focusable="false"
+        android:hint="搜索一下"
+        android:layout_width="fill_parent"
+        android:layout_height="34dp"
+        android:textSize="14dp"
+        android:gravity="center"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginTop="9dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="8dp"
+        android:textColorHint="#CCCCCC"
+        android:layout_weight="1"
+        android:drawableRight="@mipmap/ic_edit_search"
+        android:background="@drawable/bg_edit_text_search"
+       />
+    <ImageView
+        android:id="@+id/rightImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="center"
+        android:clickable="true"
+        android:background="@drawable/selector_include"
+        android:src="@mipmap/ic_normal_message" />
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.honey.e_commerce.activity.AnotherActivity">
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="591dp"
+    android:text="gss"
+    tools:layout_editor_absoluteY="8dp"
+    tools:layout_editor_absoluteX="8dp" />
+</RelativeLayout>

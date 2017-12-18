@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   android:orientation="vertical"
+    android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     android:id="@+id/mainLinearLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <include
+        android:id="@+id/topInclude"
+        layout="@layout/include_toolbar"/>
+
+    <TextView
+        android:text="地址"
+        android:layout_marginTop="16dip"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:layout_height="48dp"
+        android:textColor="@color/main"
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:drawableLeft="@mipmap/ic_normal_title_left"
+       />
+
+    <LinearLayout
+        android:paddingLeft="8dip"
+        android:paddingRight="16dip"
+        android:layout_marginTop="1px"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/white">
+
+        <Spinner
+            android:id="@+id/provinceSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            />
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:id="@+id/citySpinner"/>
+
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:id="@+id/areaSpinner"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:maxLines="1"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip"
+        android:layout_height="48dip"
+        android:layout_marginTop="1px"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:hint="例如：蒲庙镇龙亭路8号南宁学院"
+       />
+
+    <TextView
+        android:text="联系人"
+        android:layout_marginTop="16dip"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:layout_height="48dp"
+        android:textColor="@color/main"
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:drawableLeft="@mipmap/ic_normal_title_left"
+        />
+    <EditText
+        android:id="@+id/mobilePhoneEditText"
+        android:inputType="phone"
+        android:hint="请输入手机号码"
+        android:maxLines="1"
+        android:textSize="14sp"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip"
+        android:layout_height="48dip"
+        android:layout_marginTop="1px"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+       />
+
+    <EditText
+        android:id="@+id/trueNameEditText"
+        android:hint="请输入真实姓名"
+        android:maxLines="1"
+        android:textSize="14sp"
+        android:inputType="text"
+        android:paddingLeft="16dip"
+        android:paddingRight="16dip"
+        android:layout_height="48dip"
+        android:layout_marginTop="1px"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        />
+
+    <TextView
+        android:text="其他"
+        android:layout_marginTop="16dip"
+        android:background="@color/white"
+        android:maxLines="1"
+        android:textSize="16sp"
+        android:layout_height="48dp"
+        android:textColor="@color/main"
+        android:gravity="center_vertical"
+        android:layout_width="fill_parent"
+        android:drawableLeft="@mipmap/ic_normal_title_left"
+    />
+
+    <CheckBox
+        android:text="设为默认"
+  android:button="@null"
+   android:textSize="14sp"
+   android:paddingLeft="16dip"
+   android:paddingRight="16dip"
+    android:layout_height="48dip"
+   android:layout_marginTop="1px"
+   android:textColor="@color/black"
+   android:layout_width="fill_parent"
+    android:background="@drawable/selector_color_white_add"
+   android:drawableRight="@drawable/drawable_switch_common"
+        android:id="@+id/defaultCheckBox"/>
+
+</LinearLayout>

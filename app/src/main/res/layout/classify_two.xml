@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/chocolate"
+        android:text="标题"
+        android:id="@+id/classify_second_title"/>
+    <com.honey.e_commerce.fenclass.ExpandableGridView
+        android:layout_below="@+id/classify_second_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/classify_second_list"
+        android:columnWidth="120dp"
+        android:numColumns="3"
+        android:verticalSpacing="7dp"
+        android:horizontalSpacing="10dp"
+        android:scrollbars="none"
+        android:transcriptMode="alwaysScroll"
+        >
+
+    </com.honey.e_commerce.fenclass.ExpandableGridView>
+</RelativeLayout>
+
+<!--<com.example.library.AutoFlowLayout-->
+<!--android:id="@+id/classify_second_list"-->
+<!--android:layout_below="@+id/classify_second_title"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="wrap_content">-->
+
+<!--</com.example.library.AutoFlowLayout>-->

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.honey.e_commerce.activity.UserRelignActivity">
+
+    <include layout="@layout/include_user_relign"></include>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_login"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/relign_username"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_edit_username"
+            android:hint="请输入账户"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/relign_userpassword"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_edit_password"
+            android:hint="请输入密码"
+            android:password="true"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/relign_password"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_edit_password"
+            android:hint="请再次输入密码"
+            android:password="true"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/relign_useremail"
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@mipmap/ic_edit_email"
+            android:hint="请输入邮箱地址"
+            android:password="true"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/relign_button"
+            android:layout_width="400dp"
+            android:layout_height="40dp"
+            android:background="@drawable/home_login_button"
+            android:text="注册"
+            android:textColor="@color/sienna"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

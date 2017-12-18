@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/E-commerce-Two.iml" filepath="$PROJECT_DIR$/E-commerce-Two.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/imageloaderlibrary/imageloaderlibrary.iml" filepath="$PROJECT_DIR$/imageloaderlibrary/imageloaderlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/okhttplibrary/okhttplibrary.iml" filepath="$PROJECT_DIR$/okhttplibrary/okhttplibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/recyclerviewlibrary/recyclerviewlibrary.iml" filepath="$PROJECT_DIR$/recyclerviewlibrary/recyclerviewlibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/searchview_library/searchview_library.iml" filepath="$PROJECT_DIR$/searchview_library/searchview_library.iml" />
+    </modules>
+  </component>
+</project>
